@@ -1,3 +1,4 @@
+
 pipeline {
     agent any
 
@@ -10,7 +11,7 @@ pipeline {
 
         stage('Maven Build') {
             steps {
-                bat 'mvn clean package'
+                bat '"C:\\Users\\aanchal mishra\\Downloads\\apache-maven-3.10.0-bin\\apache-maven-3.10.0\\bin\\mvn.cmd" clean package'
             }
         }
     }
